@@ -25,6 +25,10 @@ public class IsUnique {
 	//for more than 128 characters
 	//O(1) space 
 	
+	//Other solutions:
+	//Compare each char O(n^2) time
+	//Sort the word and check for neighbour identical chars O(nlogn) time but takes extra space.
+	
 	
 	public static void main(String[] args) {
 		System.out.println(isUnique("Gilberto"));
